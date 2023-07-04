@@ -1,0 +1,62 @@
+body{
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+#name{
+  background-color: black;
+  border-color: white;
+  height: 30px;
+}
+
+#age{
+  background-color: black;
+  border-color: white;
+  height: 30px;
+}
+
+#grade{
+  background-color: black;
+  border-color: white;
+  height: 30px;
+}
+
+#degree{
+  background-color: black;
+  border-color: white;
+  height: 30px;
+}
+
+#email{
+  background-color: black;
+  border-color: white;
+  height: 30px;
+}
+
+
+#search{
+  width: 80%;
+  height: 25px;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  /* border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd; */
+  border: 1px solid #ddd;;
+}
+
+form {
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-gap: 30px 70px;
+}
+
